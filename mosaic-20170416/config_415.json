@@ -1,0 +1,149 @@
+{
+    "images": [
+        {
+            "col": 0,
+            "path": "D:/20170416/415_geo1/Converted_4.tiff",
+            "rotation": "83/200",
+            "row": 1,
+            "x": -60,
+            "y": 0,
+            "zoom": "2001/2000"
+        },
+        {
+            "col": 1,
+            "path": "D:/20170416/415_geo1/Converted_5.tiff",
+            "rotation": "983/2500",
+            "row": 1,
+            "x": -125,
+            "y": 20,
+            "zoom": "499/500"
+        },
+        {
+            "col": 1,
+            "path": "D:/20170416/415_geo1/Converted_1.tiff",
+            "rotation": "8597/10000",
+            "row": 0,
+            "x": -115,
+            "y": 200,
+            "zoom": "626/625"
+        },
+        {
+            "col": 0,
+            "path": "D:/20170416/415_geo1/Converted_0.tiff",
+            "rotation": "0/10000",
+            "row": 0,
+            "x": 6,
+            "y": 173,
+            "zoom": "1/1"
+        },
+        {
+            "col": 2,
+            "path": "D:/20170416/415_geo1/Converted_2.tiff",
+            "rotation": "-43/625",
+            "row": 0,
+            "x": -257,
+            "y": 240,
+            "zoom": "5001/5000"
+        },
+        {
+            "col": 2,
+            "path": "D:/20170416/415_geo1/Converted_6.tiff",
+            "rotation": "183/500",
+            "row": 1,
+            "x": -305,
+            "y": 40,
+            "zoom": "10011/10000"
+        },
+        {
+            "col": 3,
+            "path": "D:/20170416/415_geo1/Converted_3.tiff",
+            "rotation": "1567/10000",
+            "row": 0,
+            "x": -358,
+            "y": 272,
+            "zoom": "5007/5000"
+        },
+        {
+            "col": 3,
+            "path": "D:/20170416/415_geo1/Converted_7.tiff",
+            "rotation": "5971/10000",
+            "row": 1,
+            "x": -397,
+            "y": 137,
+            "zoom": "4993/5000"
+        },
+        {
+            "col": 0,
+            "path": "D:/20170416/415_geo1/Converted_8.tiff",
+            "rotation": "351/5000",
+            "row": 2,
+            "x": -47,
+            "y": -183,
+            "zoom": "999/1000"
+        },
+        {
+            "col": 1,
+            "path": "D:/20170416/415_geo1/Converted_9.tiff",
+            "rotation": "267/625",
+            "row": 2,
+            "x": -172,
+            "y": -150,
+            "zoom": "5007/5000"
+        },
+        {
+            "col": 2,
+            "path": "D:/20170416/415_geo1/Converted_10.tiff",
+            "rotation": "213/10000",
+            "row": 2,
+            "x": -303,
+            "y": -109,
+            "zoom": "4999/5000"
+        },
+        {
+            "col": 3,
+            "path": "D:/20170416/415_geo1/Converted_11.tiff",
+            "rotation": "139/2500",
+            "row": 2,
+            "x": -422,
+            "y": -70,
+            "zoom": "2503/2500"
+        },
+        {
+            "col": 0,
+            "path": "D:/20170416/415_geo1/Converted_12.tiff",
+            "rotation": "1069/2500",
+            "row": 3,
+            "x": -107,
+            "y": -350,
+            "zoom": "9999/10000"
+        },
+        {
+            "col": 1,
+            "path": "D:/20170416/415_geo1/Converted_13.tiff",
+            "rotation": "77/200",
+            "row": 3,
+            "x": -218,
+            "y": -343,
+            "zoom": "9979/10000"
+        },
+        {
+            "col": 2,
+            "path": "D:/20170416/415_geo1/Converted_14.tiff",
+            "rotation": "493/1250",
+            "row": 3,
+            "x": -351,
+            "y": -301,
+            "zoom": "10013/10000"
+        },
+        {
+            "col": 3,
+            "path": "D:/20170416/415_geo1/Converted_15.tiff",
+            "rotation": "697/1000",
+            "row": 3,
+            "x": -474,
+            "y": -230,
+            "zoom": "999/1000"
+        }
+    ],
+    "zoom": 0.038461538461538464
+}
