@@ -133,6 +133,6 @@ pVD = diff(loss, VD);
 
 [sHB,sVB,sHC,sVC,sHD,sVD] = solve( pHB, pVB, pHC, pVC, pHD, pVD, HB, VB, HC, VC, HD, VD );
 
-motion_residual = [sHB,sVB,sHC,sVC,sHD,sVD];
+motion_residual = double([sHB,sVB,sHC,sVC,sHD,sVD]);
 
 end

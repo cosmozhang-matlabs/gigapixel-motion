@@ -42,13 +42,13 @@ stage2 = stage2 * stp;
 
 motion1 = stage1 - repmat(stage1(1,:), [size(stage1,1),1]);
 motion2 = stage2 - repmat(stage2(1,:), [size(stage2,1),1]);
-motion1 = stage1(2:end,:) - transpose(reshape(residuals1,[2,3]));
-motion2 = stage2(2:end,:) - transpose(reshape(residuals2,[2,3]));
+motion1 = motion1(2:end,:) - transpose(reshape(residuals1,[2,3]));
+motion2 = motion2(2:end,:) - transpose(reshape(residuals2,[2,3]));
 motiond = motion2 - motion1;
 
 %% calculate the lens distance
 
-distances = motiond;
+distances = motiond / iml / (1/L2-1/L1);
 
 end
 
