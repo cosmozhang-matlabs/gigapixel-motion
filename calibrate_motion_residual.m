@@ -120,18 +120,16 @@ loss = optHAB1^2  + optHAB2^2  + optHAB3^2  + optHAB4^2  + optHAB5^2  + optHAB6^
      + optdHBD1^2 + optdHBD2^2 + optdHBD3^2 + optdHBD4^2 + optdHBD5^2 + optdHBD6^2 ...
      + optdVCD1^2 + optdVCD2^2 + optdVCD3^2 + optdVCD4^2 + optdVCD5^2 + optdVCD6^2;
 
-%% calculate partials
-
-pHB = diff(loss, HB);
-pVB = diff(loss, VB);
-pHC = diff(loss, HC);
-pVC = diff(loss, VC);
-pHD = diff(loss, HD);
-pVD = diff(loss, VD);
-
 %% solve the maximum
 
-[sHB,sVB,sHC,sVC,sHD,sVD] = solve( pHB, pVB, pHC, pVC, pHD, pVD, HB, VB, HC, VC, HD, VD );
+% pHB = diff(loss, HB);
+% pVB = diff(loss, VB);
+% pHC = diff(loss, HC);
+% pVC = diff(loss, VC);
+% pHD = diff(loss, HD);
+% pVD = diff(loss, VD);
+% [sHB,sVB,sHC,sVC,sHD,sVD] = solve( pHB, pVB, pHC, pVC, pHD, pVD, HB, VB, HC, VC, HD, VD );
+[bestX = 
 
 motion_residual = double([sHB,sVB,sHC,sVC,sHD,sVD]);
 
