@@ -122,14 +122,13 @@ loss = optHAB1^2  + optHAB2^2  + optHAB3^2  + optHAB4^2  + optHAB5^2  + optHAB6^
 
 %% solve the maximum
 
-% pHB = diff(loss, HB);
-% pVB = diff(loss, VB);
-% pHC = diff(loss, HC);
-% pVC = diff(loss, VC);
-% pHD = diff(loss, HD);
-% pVD = diff(loss, VD);
-% [sHB,sVB,sHC,sVC,sHD,sVD] = solve( pHB, pVB, pHC, pVC, pHD, pVD, HB, VB, HC, VC, HD, VD );
-[bestX = 
+pHB = diff(loss, HB);
+pVB = diff(loss, VB);
+pHC = diff(loss, HC);
+pVC = diff(loss, VC);
+pHD = diff(loss, HD);
+pVD = diff(loss, VD);
+[sHB,sVB,sHC,sVC,sHD,sVD] = solve( pHB, pVB, pHC, pVC, pHD, pVD, HB, VB, HC, VC, HD, VD );
 
 motion_residual = double([sHB,sVB,sHC,sVC,sHD,sVD]);
 

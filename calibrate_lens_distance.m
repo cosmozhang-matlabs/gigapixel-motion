@@ -29,6 +29,8 @@ end
 
 L1 = L1 * 10;
 L2 = L2 * 10;
+l1 = 1/(1/iml-1/L1);
+l2 = 1/(1/iml-1/L2);
 residuals1 = residuals1 * res;
 residuals2 = residuals2 * res;
 stage1 = stage1 * stp;
@@ -48,7 +50,7 @@ motiond = motion2 - motion1;
 
 %% calculate the lens distance
 
-distances = motiond / iml / (1/L2-1/L1);
+distances = motiond / (l1/L2-l2/L1);
 
 end
 
